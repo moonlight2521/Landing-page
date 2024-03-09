@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.top-style{
+    background-color: #1f2937;
+    color: white;
+}
+.header{
+    /* background-color: #1f2937; */
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+}
+.right-link {
+   font-size: 10px;
+}
+.section1 {
+    /* background-color: #1f2937; */
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    padding-right: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: white;}
+.section2{
+
+}
+.section3{
+
+}
+.section4{
+
+}
+.footer{
+    background-color: #1f2937;
+
+}
+img {
+    width: 400px;
+  }
+.season-images{
+    width: 200px;
+}
