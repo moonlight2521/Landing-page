@@ -1,23 +1,21 @@
 *{
-    border: solid 1px;
-    border-color: red;
+    border: solid red 1px;
 }
 body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-}
+} 
 .top-style{
     background-color: #1f2937;
     color: white;
 }
 .header{
-    /* background-color: #1f2937; */
     display: flex;
     justify-content: space-between;
-    padding: 10;
 }
 .logo{
     font-size: 18px;
@@ -27,10 +25,31 @@ body{
 .right-link {
    font-size: 10px;
 }
-.section1 {
-    /* background-color: #1f2937; */
+.section1{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
 }
 
+.section1-right{
+    
+}
+.section1-left {
+    font-size: 18px;
+
+}
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.section1-button {
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -39,16 +58,32 @@ ul{
     padding: 0;
     gap: 16px;
 }
-
 a{
     text-decoration: none;
-    color: white;
-}
+    color: white;}
 .section2{
+    display: flex;
+    flex-direction: column;
+}
+.section2-title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+}
+.images-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px;
+}
 
+.images-section div div {
+    display: flex;
+    justify-content: center;
 }
 .section3{
-
+    display: flex;
+    flex-direction: column;
 }
 .section4{
 
@@ -58,8 +93,12 @@ a{
 
 }
 img {
-    width: 400px;
+    width: 200px;
+    height: auto;
   }
 .season-images{
-    width: 200px;
+    width: 120px;
+    height: 100px;
+    border-radius: 10px;
+    border: solid #3882F6 3px;
 }
