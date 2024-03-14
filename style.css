@@ -1,6 +1,6 @@
-*{
+/* *{
     border: solid red 1px;
-}
+} */
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
@@ -8,14 +8,18 @@ body{
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f2937;
+
 } 
 .top-style{
-    background-color: #1f2937;
+    /* background-color: #1f2937; */
     color: white;
 }
 .header{
     display: flex;
     justify-content: space-between;
+    padding: 0 30px;
 }
 .logo{
     font-size: 18px;
@@ -29,6 +33,7 @@ body{
     display: flex;
     flex-direction: row;
     padding: 30px;
+    justify-content: space-between;
 }
 
 .section1-right{
@@ -64,17 +69,21 @@ a{
 .section2{
     display: flex;
     flex-direction: column;
+    background-color: #f9faf8;
+
 }
 .section2-title {
     display: flex;
     justify-content: center;
     flex-direction: row; 
+    padding: 20px;
+    font-weight: bold;
 }
 .images-section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px;
+    padding: 20px 50px;
 }
 
 .images-section div div {
@@ -97,14 +106,41 @@ a{
 }
 .section4{
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    font-size: 10px;
+    background-color: #f9faf8;
+
+}
+.blue-form{
+    display: flex;
+    background-color: #3882F6;
+    flex-direction: row;
+    padding: 20px 40px;
+    gap: 20px;
+    border-radius: 5px;
+}
+.section4-button-div {
+    display: flex;
     flex-direction: column;
-    padding: 0% 10% 0%;
+    justify-content: center;
+}
+.section4-button{
+    color: white;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 5px
 }
 .footer{
     display: flex;
+    flex-direction: row;
     background-color: #1f2937;
     justify-content: center;
-    padding: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 10px;
 }
 img {
     width: 200px;
